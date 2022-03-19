@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Mufti Signals</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -10,14 +10,40 @@
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('level.png');
+  background-image: url('Level.png');
   min-height: 100%;
   background-position: center;
   background-size: cover;
 }
 #logo{
 	max-width:290px;
-	
+	/* text-shadow: 2px 2px #ff0000; style="text-shadow: 2px 2px #00ff00;"*/
+}
+#join{
+  color:greenyellow;
+  font-weight: 900;
+  font-size: large;
+  background-color:#ff0000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  /* margin-top: 20px; */
+}
+#join:hover{
+  background-color: greenyellow;
+  color: #ff0000;
+  /* text-decoration:solid; */
+}
+#join:active{
+  background-color: greenyellow;
+  color: #ff0000;
+}
+#text1{
+  color:rgb(213, 255, 170);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2px 5px;
+  border-radius: 10px;
+  
 }
 </style>
 </head>
@@ -33,7 +59,8 @@ body, html {height: 100%}
 	<img id="logo" src="mufti.jpg">
 <br><br>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p style="text-shadow: 2px 2px #00ff00;" class="w3-large w3-center">Your new trading journey... <br> <a style="text-shadow: 2px 2px #ff0000;" href="https://t.me/mufti_signals" target="_blank">Join Free Demo on Telegram.</a> </p>
+    <p  class="w3-large w3-center"> <span id="text1" >Your new trading journey...</span><br></p>
+      <p class="w3-large w3-center" ><a id="join" href="https://t.me/mufti_signals" target="_blank">Join Free Demo on Telegram.</a></p> 
   </div>
   <div class="w3-display-bottomleft w3-padding-large">
     Powered by <a style="text-shadow: 2px 2px #ff0000;" class="  w3-text-green" href="https://www.mufti.thecryptop.com" target="_blank">Mufti Signals</a>
